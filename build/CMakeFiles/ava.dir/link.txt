@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/ava.dir/src/main.cpp.o -o ava 
