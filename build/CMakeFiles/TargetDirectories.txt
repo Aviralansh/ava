@@ -1,3 +1,3 @@
-/home/aviral/ava/build/CMakeFiles/ava.dir
-/home/aviral/ava/build/CMakeFiles/edit_cache.dir
-/home/aviral/ava/build/CMakeFiles/rebuild_cache.dir
+/mnt/d/Projects/Github/ava/build/CMakeFiles/ava.dir
+/mnt/d/Projects/Github/ava/build/CMakeFiles/edit_cache.dir
+/mnt/d/Projects/Github/ava/build/CMakeFiles/rebuild_cache.dir

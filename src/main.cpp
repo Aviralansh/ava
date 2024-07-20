@@ -15,7 +15,7 @@ enum class TokenType{
 struct Token{
 
   TokenType type;
-  std::optional<std::string> value {};
+  std::optional <std::string> value;
 
 };
 
@@ -101,7 +101,7 @@ std::string tokens_to_asm(const std::vector<Token>& tokens){
 int main(int argc, char* argv[]){
 
   if(argc != 2){
-    std::cerr << "inccoret ussage" << std::endl;
+    std::cerr << "incorrect usage" << std::endl;
     std::cerr << "correct usage: ava <filename.av>" << std::endl;
     return EXIT_FAILURE;
   }
@@ -129,7 +129,7 @@ int main(int argc, char* argv[]){
 
   system("nasm -felf64 out.asm");
   system("ld -o out out.o");
-  system("./a.out");
+  system("./out");
 
   return EXIT_SUCCESS;
 }
